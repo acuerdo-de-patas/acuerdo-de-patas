@@ -75,7 +75,7 @@ class Post extends Component {
                                                         onChange={(event, editor) => {
                                                             const data = editor.getData();
                                                             console.log({ event, editor, data });
-                                                            // this.onChange('content')
+                                                            this.setState({ content: data });
                                                         }}
                                                     />
                                                 </div>
