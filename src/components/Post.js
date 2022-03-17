@@ -80,7 +80,7 @@ class Post extends Component {
                                                     />
                                                 </div>
                                                 <div className="form-group">
-                                                    <button type="button" onClick={this.sunmitPost} className="btn btn-primary btn-lg">Submit</button>
+                                                    <button type="button" onClick={this.sunmitPost} className="btn btn-primary btn-lg">Enviar</button>
                                                 </div>
                                             </fieldset>
                                         </form>
